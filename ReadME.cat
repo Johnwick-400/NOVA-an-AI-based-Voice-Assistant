@@ -1,3 +1,40 @@
-HELLO Welcome to the my first project to make an AI based Voice Assistant called NOVA By using Python 
-libraries used :
-->speech_recognition :it takes the input in the form of sound and convert it into the Text formv
+# Nova Voice Assistant
+
+Nova Voice Assistant is a Python-based voice assistant designed to perform various tasks using speech recognition and synthesis technologies. It utilizes a range of Python packages to enable voice interaction and automate tasks.
+
+## Features
+
+- Speech recognition for understanding voice commands.
+- Speech synthesis for providing responses and feedback.
+- Web browsing capabilities to open websites based on user requests.
+- Automation of system commands and subprocess execution.
+- Control over GUI applications using pyautogui.
+- Ability to fetch jokes from an online API.
+- Integration with various Python packages for enhanced functionality.
+
+## Packages Used
+
+- **datetime**: For handling date and time information.
+- **pyttsx3**: For text-to-speech conversion.
+- **speech_recognition**: For converting speech to text.
+- **webbrowser**: For opening web pages in the default web browser.
+- **subprocess**: For executing system commands and subprocesses.
+- **os**: For interacting with the operating system.
+- **time**: For incorporating time delays in the program.
+- **pyautogui**: For controlling the mouse and keyboard to automate GUI interactions.
+- **pyjokes**: For fetching random jokes.
+- **requests**: For making HTTP requests to fetch data from APIs.
+
+## Usage
+
+1. Run the Nova Voice Assistant script:
+
+    ```bash
+    python nova_voice_assistant.py
+    ```
+
+2. Speak commands to the assistant and listen to its responses.
+
+## Contribution
+
+Contributions to the Nova Voice Assistant project are welcome! If you have ideas for new features, improvements, or bug fixes, feel free to open an issue or submit a pull request.
